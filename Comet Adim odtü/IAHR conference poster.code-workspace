@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"grammarly.selectors": [
+			{
+				"language": "latex",
+				"scheme": "file"
+			}
+		]
+	}
+}

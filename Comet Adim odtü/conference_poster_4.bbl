@@ -1,0 +1,136 @@
+\begin{thebibliography}{10}
+
+\bibitem{laytonai}
+Peter Layton.
+\newblock Ai-enabled war-in-the-air.
+
+\bibitem{hassanalian2017classifications}
+Mostafa Hassanalian and Abdessattar Abdelkefi.
+\newblock Classifications, applications, and design challenges of drones: A
+  review.
+\newblock {\em Progress in Aerospace Sciences}, 91:99--131, 2017.
+
+\bibitem{Raymer2018}
+Daniel Raymer.
+\newblock {\em Aircraft Design: A Conceptual Approach, Sixth Edition}.
+\newblock American Institute of Aeronautics and Astronautics, Inc., August
+  2018.
+
+\bibitem{Reeds1990OPTIMALPF}
+James~A. Reeds and Larry~A. Shepp.
+\newblock Optimal paths for a car that goes both forwards and backwards.
+\newblock {\em Pacific Journal of Mathematics}, 145:367--393, 1990.
+
+\bibitem{8311915}
+Ibrahim~A. Hameed.
+\newblock Coverage path planning software for autonomous robotic lawn mower
+  using dubins' curve.
+\newblock In {\em 2017 IEEE International Conference on Real-time Computing and
+  Robotics (RCAR)}, pages 517--522, 2017.
+
+\bibitem{s20020547}
+Abu Md~Niamul Taufique, Breton Minnehan, and Andreas Savakis.
+\newblock Benchmarking deep trackers on aerial videos.
+\newblock {\em Sensors}, 20(2), 2020.
+
+\bibitem{isaac2021unmanned}
+Brian~KS Isaac-Medina, Matt Poyser, Daniel Organisciak, Chris~G Willcocks,
+  Toby~P Breckon, and Hubert~PH Shum.
+\newblock Unmanned aerial vehicle visual detection and tracking using deep
+  neural networks: A performance benchmark.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 1223--1232, 2021.
+
+\bibitem{fu2020correlation}
+Changhong Fu, Bowen Li, Fangqiang Ding, Fuling Lin, and Geng Lu.
+\newblock Correlation filters for unmanned aerial vehicle-based aerial
+  tracking: a review and experimental evaluation.
+\newblock {\em arXiv preprint arXiv:2010.06255}, 2020.
+
+\bibitem{nepal2022comparing}
+Upesh Nepal and Hossein Eslamiat.
+\newblock Comparing yolov3, yolov4 and yolov5 for autonomous landing spot
+  detection in faulty uavs.
+\newblock {\em Sensors}, 22(2):464, 2022.
+
+\bibitem{redmon2016you}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 779--788, 2016.
+
+\bibitem{redmon2018yolov3}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em arXiv preprint arXiv:1804.02767}, 2018.
+
+\bibitem{zhang2018fast}
+Xiang Zhang, Wei Yang, Xiaolin Tang, and Jie Liu.
+\newblock A fast learning method for accurate and robust lane detection using
+  two-stage feature extraction with yolo v3.
+\newblock {\em Sensors}, 18(12):4308, 2018.
+
+\bibitem{li2020agricultural}
+Min Li, Zhijie Zhang, Liping Lei, Xiaofan Wang, and Xudong Guo.
+\newblock Agricultural greenhouses detection in high-resolution satellite
+  images based on convolutional neural networks: Comparison of faster r-cnn,
+  yolo v3 and ssd.
+\newblock {\em Sensors}, 20(17):4938, 2020.
+
+\bibitem{rahman2021autonomous}
+Ehab~Ur Rahman, Yihong Zhang, Sohail Ahmad, Hafiz~Ishfaq Ahmad, and Sayed
+  Jobaer.
+\newblock Autonomous vision-based primary distribution systems porcelain
+  insulators inspection using uavs.
+\newblock {\em Sensors}, 21(3):974, 2021.
+
+\bibitem{long2020pp}
+Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,
+  Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, et~al.
+\newblock Pp-yolo: An effective and efficient implementation of object
+  detector.
+\newblock {\em arXiv preprint arXiv:2007.12099}, 2020.
+
+\bibitem{kim2020comparison}
+Jeong-ah Kim, Ju-Yeong Sung, and Se-ho Park.
+\newblock Comparison of faster-rcnn, yolo, and ssd for real-time vehicle type
+  recognition.
+\newblock In {\em 2020 IEEE International Conference on Consumer
+  Electronics-Asia (ICCE-Asia)}, pages 1--4. IEEE, 2020.
+
+\bibitem{liu2022object}
+Qi~Liu, Xiaoyu Fan, Zhipeng Xi, Zhijian Yin, and Zhen Yang.
+\newblock Object detection based on yolov4-tiny and improved bidirectional
+  feature pyramid network.
+\newblock In {\em Journal of Physics: Conference Series}, volume 2209, page
+  012023. IOP Publishing, 2022.
+
+\bibitem{lin2017focal}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Doll{\'a}r.
+\newblock Focal loss for dense object detection.
+\newblock In {\em Proceedings of the IEEE international conference on computer
+  vision}, pages 2980--2988, 2017.
+
+\bibitem{bertinetto2016fully}
+Luca Bertinetto, Jack Valmadre, Joao~F Henriques, Andrea Vedaldi, and Philip~HS
+  Torr.
+\newblock Fully-convolutional siamese networks for object tracking.
+\newblock In {\em European conference on computer vision}, pages 850--865.
+  Springer, 2016.
+
+\bibitem{shen2022real}
+Hao Shen, Defu Lin, and Tao Song.
+\newblock A real-time siamese tracker deployed on uavs.
+\newblock {\em Journal of Real-Time Image Processing}, 19(2):463--473, 2022.
+
+\bibitem{px4}
+Px4 architectural overiew.
+\newblock \url{https://docs.px4.io/v1.12/en/concept/architecture.html}, Jun
+  2021.
+
+\bibitem{Tolga2022}
+Demirdal.
+\newblock modified-dubins.
+\newblock \url{https://github.com/shadymeowy/modified-dubins}, 2022.
+
+\end{thebibliography}

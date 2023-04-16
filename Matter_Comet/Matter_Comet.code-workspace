@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "images"
+		}
+	],
+	"settings": {
+		"grammarly.selectors": [
+			{
+				"language": "latex",
+				"scheme": "file"
+			}
+		],
+		"files.autoSave": "onFocusChange"
+	}
+}

@@ -1,0 +1,189 @@
+\documentclass[twocolumn]{article}
+\synctex=1
+\usepackage[a4paper, portrait, margin=1in]{geometry}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{xcolor} 
+\usepackage[colorlinks, citecolor=cyan]{hyperref}
+\usepackage{caption}
+\captionsetup[figure]{name=Figure}
+\graphicspath{ {./images/} }
+\usepackage{scrextend}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\newcounter{lemma}
+\newtheorem{lemma}{Lemma}
+\newcounter{theorem}
+\newtheorem{theorem}{Theorem}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{datetime}
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\familydefault}{\sfdefault}
+	
+	% \lhead{\color{cyan}\small \textbf{KOMPUTASI: JURNAL ILMIAH ILMU KOMPUTER DAN MATEMATIKA}\\ \color{black}
+	% \textit{Vol. XX (X)  (XXXX), XX-XX, p-ISSN: 693-7554, e-ISSN:2654-3990}\\ }
+	%\rhead{p-ISSN: 693-7554 \\ e-ISSN:2654-3990}
+	%\rfoot{\thepage} --> Show the page number
+	
+}
+\fancypagestyle{fancy}{
+	\fancyhf{}
+	\fancyhead[RO]{\thepage}
+	% \renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\familydefault}{\sfdefault}
+	
+	\lhead{{MATTER}}
+	% \textit{Vol. XX (X)  (XXXX), XX-XX, p-ISSN: 693-7554, e-ISSN:2654-3990}\\ }
+	%\rhead{p-ISSN: 693-7554 \\ e-ISSN:2654-3990}
+	%\rfoot{\thepage} --> Show the page number
+	
+}
+
+%\pagestyle{plain}
+\makeatletter
+\patchcmd{\@maketitle}{\LARGE \@title}{\fontsize{16}{19.2}\selectfont\@title}{}{}
+\makeatother
+
+\usepackage{authblk}
+\renewcommand\Authfont{\fontsize{10}{10.8}\selectfont}
+\renewcommand\Affilfont{\fontsize{10}{10.8}\selectfont}
+\renewcommand*{\Authsep}{, }
+\renewcommand*{\Authand}{, }
+\renewcommand*{\Authands}{, }
+\setlength{\affilsep}{2em}  
+\newsavebox\affbox
+% \textbf{Team Members:} Shaikh Muhammad ADIL, Metehan ATCI, Zafer Doğan BUDAK,\\ Fetullah CEYLAN, Furkan ÇİTİL, Göktuğ Mete KESİCİ, Ahmet NACAR, Alperen TEKİN\\
+\author[1]{\textbf{Undergraduate Researchers: Shaikh Muhammad ADIL}}
+\author[2]{\textbf{Metehan ATCI}}
+\author[3]{\textbf{Zafer Doğan BUDAK}}
+\author[4]{\textbf{Fetullah CEYLAN}}
+\author[5]{\textbf{Furkan ÇİTİL}}
+\author[6]{\textbf{Göktuğ Mete KESİCİ}}
+\author[7]{\textbf{Ahmet NACAR}}
+\author[8]{\textbf{Alperen TEKİN}}
+\author[9]{\textbf{\\Advisor: Prof. Dr. Ozan TEKİNALP}}
+
+
+
+\affil[1,2,6,7,9]{ Department of Aerospace Engineering, Faculty of Engineering, Middle East Technical University, Ankara, Turkey}
+\affil[3,4,5]{ Department of Electrical \& Electronics Engineering, Faculty of Engineering, Middle East Technical University, Ankara, Turkey}
+\affil[8]{Department of Mechnical Engineering, Faculty of Engineering, Middle East Technical University, Ankara, Turkey}
+
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{12pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{12pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+
+\titleformat{\section}{\normalfont\fontsize{10}{15}\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{10}{15}\bfseries}{\thesubsection.}{1em}{}
+\titleformat{\subsubsection}{\normalfont\fontsize{10}{15}\bfseries}{\thesubsubsection.}{1em}{}
+
+\titleformat{\author}{\normalfont\fontsize{10}{15}\bfseries}{\thesection}{1em}{}
+
+\title{\textbf{\huge Dogfighter UAV Design}\\
+}
+\date{}    
+
+\begin{document}
+\onecolumn
+\pagestyle{headings}
+\newpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+
+
+\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=period,name={Figure }}	\captionsetup[table]{labelfont={bf},labelformat={default},labelsep=period,name={Table }}
+\setlength{\parskip}{0.5em}
+
+\maketitle
+
+\noindent\rule{15cm}{0.5pt}
+\begin{abstract}
+	\textbf{Abstract }In this paper, an  autonomous UAV system to perform dogfight is introduced including aerodynamic, mechanical, and electronical subsystems, and software pipeline. First of all, an aircraft that can perform airborne maneuvers for the dogfight mission is designed and the components for the communication system are determined. Then, a new hybrid airborne UAV tracking method is proposed for visual navigation, with an agile control system that enables autonomous dogfight abilities. \\
+
+	\let\thefootnote\relax\footnotetext{
+		\small $^{*}$\textbf{Zafer Doğan BUDAK.} \textit{
+			\textit{E-mail address: \color{cyan} \href{mailto:zafer.budak@metu.edu.tr}{zafer.budak@metu.edu.tr}}}\\
+		% \color{black} Received: xx xxxxx 20xx,\quad
+		% Accepted: xx xxxxx 20xx and available online XX July 2022 \\
+		% \color{cyan} https://doi.org/10.1016/j.compeleceng.2021.107553
+
+	}
+
+	\centering
+	\textbf{\textit{Keywords}}:\\ \textit{fixed-wing UAV Design; target optimization; autonomous dogfight; UAV tracking; visual guidance}
+	\linebreak[3]
+	\today
+\end{abstract}
+\noindent\rule{15cm}{0.4pt}
+
+\newpage
+
+
+\pagestyle{fancy}
+\twocolumn
+
+
+
+\section{Introduction}
+The basic mission description of the Astrotech UAV system is selecting a target by analyzing data from rival UAVs moving in the air, performing an appropriate approach to the target UAV to obtain visual contact, and pursuing the rival UAV with the help of the guidance algorithm.
+%TODO improve the introduction
+
+
+
+\section{Experimental/Methodology/Design}
+The methods section describes the steps followed in the execution of the study and also provides a brief justification for the research methods used. A chronological explanation of the research, including research design, research procedures (in the form of algorithms, codes, or others), how the procedures are to obtain and test data \cite{Lo} - \cite{Hang}. The description of the research has been supported by references, so that the implementation can be accepted scientifically [6]. Figure are presented in the center, as shown below and are cited in the manuscript. An example of a membership function graph can be seen in Figure \ref{table1}.
+
+
+\subsection{System Design}
+\subsubsection{Mechanical Design \& Performance }
+\subsubsection{Electronics Design}
+\subsection{System Software \& Algorithms}
+\subsubsection{Targeting Optimization}
+\subsubsection{Control}
+\subsubsection{Image Processing}
+
+
+
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.5\textwidth]{images/figur1.PNG}
+% 	\caption{Font 10pt and center not bold for captions except for the words "Figure"}
+% 	\label{fig1}
+% \end{figure}
+
+Each image (photos, graphs, and diagrams) in the article must be accompanied by a caption/image title and sequential image numbers, written below the image in the middle position. Images must be directly relevant to the article and are always referenced in the article referred to as Figur \ref{table1}, where the capital letters are capitalized.
+
+
+
+
+
+
+\section{Result and Discussion}
+
+
+
+\section{Conclusion}
+
+\section{Acknowledgement (if any)}
+
+\clearpage
+\bibliographystyle{IEEEtran}
+\nocite{*}
+\bibliography{references.bib} %-->reference list is on the template.bib file
+
+.
+
+\end{document}

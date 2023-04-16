@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: conference_poster_4.aux
+The style file: unsrt.bst
+Database file #1: sample.bib
+Warning--empty journal in laytonai
+Warning--empty year in laytonai
+Warning--can't use both volume and number fields in liu2022object
+You've used 22 entries,
+            1791 wiz_defined-function locations,
+            570 strings with 7754 characters,
+and the built_in function-call counts, 5589 in all, are:
+= -- 482
+> -- 267
+< -- 8
++ -- 98
+- -- 76
+* -- 353
+:= -- 847
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 274
+empty$ -- 538
+format.name$ -- 76
+if$ -- 1288
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 21
+newline$ -- 111
+num.names$ -- 21
+pop$ -- 84
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 161
+stack$ -- 0
+substring$ -- 310
+swap$ -- 97
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 48
+width$ -- 24
+write$ -- 236
+(There were 3 warnings)
